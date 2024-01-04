@@ -1,9 +1,9 @@
 ---
-const { tag }= Astro.props;
+const { tags }= Astro.props;
 ---
-{tag && tag.map((item: string) => (
+{tags && tags.map((tag: string) => (
     <span class="group text-[16px] bg-transparent border-pacamara-secondary border-[1px] leading-none rounded-full flex flex-row content-center items-center h-[34px] px-3 text-pacamara-secondary">
-        {item}
+        {tag}
     </span>
 ))}
 
