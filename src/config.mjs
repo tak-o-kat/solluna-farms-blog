@@ -2,7 +2,7 @@ export default {
     title: "Homepage",
     titleSuffix: " | Solluna Ⱄ Farms",
     description: "Solluna Farms, gourmet mushrooms, medicinal mushrooms, and more",
-    defaultOgImage: "./solluna-farms.png",
+    defaultOgImage: "./solluna-farms.jpg",
     latestPosts: 3,
     postsPerPage: 3,
     url: "https://solluna-farms-blog.vercel.app/",
