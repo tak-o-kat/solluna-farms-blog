@@ -40,12 +40,14 @@ const faviconSvg = await getImage({ src: faviconSvgSrc, format: 'svg' });
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta name="view-transition" content="same-origin" />
+      <!-- Favicon Starts Here -->
       <link rel="icon" href="/favicon.ico" sizes="16x16" />
       <link rel="icon" href="/favicon.ico" sizes="32x32" />
       <link rel="icon" href="/favicon.ico" sizes="48x48" />
       <link rel="icon" href={faviconSvg.src} type="image/svg+xml" />
       <link rel="apple-touch-icon" href={appleTouchIcon.src} />
       <link rel="manifest" href="/manifest.json" />
+      <!-- Favicon Ends Here -->
       <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="./rss.xml" />
       <SeoHead postData={postData} />
       <link rel="preload" href="/fonts/inter-v12-latin_latin-ext-regular.woff2" as="font" crossorigin>
