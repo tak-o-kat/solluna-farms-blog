@@ -22,8 +22,8 @@ export const GET: APIRoute = async () => {
   );
 
   const manifest = {
-    name: "Your site title",
-    description: "Your site description",
+    name: "Solluna Farms",
+    description: "Follow along in our journey to maintain a mushroom farm",
     start_url: "/",
     display: "standalone",
     id: "some-unique-id",
