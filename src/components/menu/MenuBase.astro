@@ -11,27 +11,27 @@ import Fav from "../../images/favicon.svg";
   class="container mx-auto max-w-screen-xl px-2 md:px-7 py-10 lg:min-h-[300px] content-center font-pacamara prose lg:prose-xl prose-headings:font-pacamara-space prose-headings:mt-5 prose-headings:text-pacamara-dark prose-headings:font-bold lg:prose-h1:text-7xl prose-h1:mt-0 prose-heading:transition-all prose-heading:duration-300 prose-p:text-pacamara-primary/50 dark:prose-p:text-white/70 prose-p:mb-0 prose-p:transition-all prose-p:duration-300 prose-img:mt-0 prose-img:mb-0 dark:prose-headings:text-white"
 >
   <div class="text-white p-1">
-    <section class="bg-[#202124] h-full w-full">
+    <section class="bg-[#202124] h-full w-full flex flex-col">
       <div class="flex justify-items-start relative">
-        <div class="p-2 md:p-5 flex flex-col md:flex-row">
-          <div class="flex flex-row w-full md:w-[25rem]">
+        <div class="p-2 md:p-3 lg:p-5 flex flex-col md:flex-row">
+          <div class="flex flex-row w-full md:w-[22rem] lg:w-[25rem]">
             <img src={Title.src} alt="Solluna Mushroom Farms title" class="" />
           </div>
-          <div class="px-0 md:px-[2rem] lg:px-[8rem] flex flex-col">
-            <h3>Info</h3>
+          <div class="px-0 md:px-[2rem] lg:px-[6rem] flex flex-col">
+            <div class="text-2xl p-3">Info</div>
             <div class="flex flex-col px-1 py-4 md:p-4">
               <span class="text-sm text-neutral-400">Email</span>
               <span> sollunamushrooms@gmail.com</span>
             </div>
             <div
-              class="flex flex-col md:flex-row justify-center items-center gap-6 text-sm text-neutral-400"
+              class="flex flex-col md:flex-row justify-center items-center gap-6 text-sm w-full text-neutral-400"
             >
               <div class="flex flex-col">
                 <span class="mb-3">YouTube</span>
                 <img
                   src={YouTubeCode.src}
                   alt=""
-                  class="h-60 md:h-40 w-60 md:w-40"
+                  class="h-60 md:h-[8rem] lg:h-[10rem] w-60 md:w-[8rem] lg:w-[10rem]"
                 />
               </div>
               <div class="flex flex-col">
@@ -39,7 +39,7 @@ import Fav from "../../images/favicon.svg";
                 <img
                   src={DiscordCode.src}
                   alt=""
-                  class="h-60 md:h-40 w-60 md:w-40"
+                  class="h-60 md:h-[8rem] lg:h-[10rem] w-60 md:w-[8rem] lg:w-[10rem]"
                 />
               </div>
             </div>
@@ -62,7 +62,12 @@ import Fav from "../../images/favicon.svg";
           </ul>
         </div>
       </div>
-      <div class="flex justify-items-start relative p-5">Hello</div>
+      <div class="flex justify-center w-full p-5">
+        <div class="flex flex-col">
+          <div class="flex justify-center text-4xl font-bold">Mushrooms</div>
+          <div class="flex justify-center text-md">priced per lbs</div>
+        </div>
+      </div>
     </section>
   </div>
 </section>
