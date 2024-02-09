@@ -1,0 +1,68 @@
+---
+import background from "../../images/grey-matte-md.jpg";
+import Bookmark from "../../images/bookmark.svg";
+import Title from "../../images/menu.png";
+import YouTubeCode from "../../images/yt_qrcode.png";
+import DiscordCode from "../../images/discord_qrcode.png";
+import Fav from "../../images/favicon.svg";
+---
+
+<section
+  class="container mx-auto max-w-screen-xl px-2 md:px-7 py-10 lg:min-h-[300px] content-center font-pacamara prose lg:prose-xl prose-headings:font-pacamara-space prose-headings:mt-5 prose-headings:text-pacamara-dark prose-headings:font-bold lg:prose-h1:text-7xl prose-h1:mt-0 prose-heading:transition-all prose-heading:duration-300 prose-p:text-pacamara-primary/50 dark:prose-p:text-white/70 prose-p:mb-0 prose-p:transition-all prose-p:duration-300 prose-img:mt-0 prose-img:mb-0 dark:prose-headings:text-white"
+>
+  <div class="text-white p-1">
+    <section class="bg-[#202124] h-full w-full">
+      <div class="flex justify-items-start relative">
+        <div class="p-2 md:p-5 flex flex-col md:flex-row">
+          <div class="flex flex-row w-full md:w-[25rem]">
+            <img src={Title.src} alt="Solluna Mushroom Farms title" class="" />
+          </div>
+          <div class="px-0 md:px-[2rem] lg:px-[8rem] flex flex-col">
+            <h3>Info</h3>
+            <div class="flex flex-col px-1 py-4 md:p-4">
+              <span class="text-sm text-neutral-400">Email</span>
+              <span> sollunamushrooms@gmail.com</span>
+            </div>
+            <div
+              class="flex flex-col md:flex-row justify-center items-center gap-6 text-sm text-neutral-400"
+            >
+              <div class="flex flex-col">
+                <span class="mb-3">YouTube</span>
+                <img
+                  src={YouTubeCode.src}
+                  alt=""
+                  class="h-60 md:h-40 w-60 md:w-40"
+                />
+              </div>
+              <div class="flex flex-col">
+                <span class="mb-3">Discord</span>
+                <img
+                  src={DiscordCode.src}
+                  alt=""
+                  class="h-60 md:h-40 w-60 md:w-40"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex absolute right-1 lg:right-10 top-0">
+          <img
+            src={Bookmark.src}
+            alt="image description"
+            class="bg-[#202124] h-[6rem] lg:h-[12rem] w-[3rem] lg:w-[6rem]"
+          />
+          <ul
+            class="list-none !m-0 flex flex-col text-[10px] lg:text-[24px] text-black font-mono font-semibold absolute right-[20px] lg:right-[40px] bottom-[38px] lg:bottom-[75px]"
+          >
+            <li class="!m-0 h-3 lg:h-6">M</li>
+            <li class="!m-0 h-3 lg:h-6">E</li>
+            <li class="!m-0 h-3 lg:h-6">N</li>
+            <li class="!m-0 h-3 lg:h-6">U</li>
+          </ul>
+        </div>
+      </div>
+      <div class="flex justify-items-start relative p-5">Hello</div>
+    </section>
+  </div>
+</section>
