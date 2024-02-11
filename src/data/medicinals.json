@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Turkey Tail",
+    "dose": "90",
+    "price": "55"
+  },
+  {
+    "name": "Turkey Tail",
+    "dose": "30",
+    "price": "28"
+  },
+  {
+    "name": "Lion's Mane",
+    "dose": "90",
+    "price": "55"
+  },
+  {
+    "name": "Lion's Mane",
+    "dose": "30",
+    "price": "28"
+  },
+  {
+    "name": "Reishi Antlers",
+    "dose": "90",
+    "price": "55"
+  }
+]

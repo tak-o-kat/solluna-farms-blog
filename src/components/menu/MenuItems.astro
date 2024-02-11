@@ -1,0 +1,75 @@
+---
+import mushrooms from "../../data/mushrooms.json";
+import medicinals from "../../data/medicinals.json";
+import gourmets from "../../data/gourmets.json";
+---
+
+<div class="flex flex-col justify-center w-full p-5">
+  <div class="flex flex-col mt-5">
+    <div
+      class="flex justify-center md:text-4xl text-2xl font-bold text-slate-200"
+    >
+      Mushrooms
+    </div>
+    <div class="flex justify-center text-md">Priced per lbs</div>
+  </div>
+  <ul
+    class="md:px-6 px-2 flex flex-col justify-center items-center my-5 md:text-2xl text-md text-slate-300"
+  >
+    {
+      mushrooms.map(({ name, price }) => (
+        <li class="flex w-full max-w-lg justify-between">
+          <div class="p-1">{name}</div>
+          <div class="p-1">{`$${price}`}</div>
+        </li>
+      ))
+    }
+  </ul>
+  <div class="flex flex-col mt-5">
+    <div
+      class="flex justify-center md:text-4xl text-2xl font-bold text-slate-200"
+    >
+      Medicinal Products
+    </div>
+    <div class="flex justify-center text-md">Priced per daily dose</div>
+    <div class="flex justify-center text-sm">
+      The following products come in capsules
+    </div>
+  </div>
+  <ul
+    class="md:px-6 px-2 flex flex-col justify-center items-center my-5 md:text-2xl text-md text-slate-300"
+  >
+    {
+      medicinals.map(({ name, dose, price }) => (
+        <li class="flex w-full max-w-xl justify-between">
+          <div class="p-1">
+            {name}
+            <span class="flex items-center justify-center text-sm">{`(${dose} days)`}</span>
+          </div>
+          <div class="p-1">{`$${price}`}</div>
+        </li>
+      ))
+    }
+  </ul>
+  <div class="flex flex-col mt-5">
+    <div
+      class="flex justify-center md:text-4xl text-2xl font-bold text-slate-200"
+    >
+      Gourmet Specialties
+    </div>
+  </div>
+  <ul
+    class="md:px-6 px-2 flex flex-col justify-center items-center my-5 md:text-2xl text-md text-slate-300"
+  >
+    {
+      gourmets.map(({ name, price }) => (
+        <li class="flex w-full max-w-lg justify-between">
+          <div class="p-1">{name}</div>
+          <div class="p-1">{`$${price}`}</div>
+        </li>
+      ))
+    }
+  </ul>
+  <div class="flex flex-col mt-5"></div>
+  <span class="flex justify-center text-3xl font-bold">More coming soon!</span>
+</div>

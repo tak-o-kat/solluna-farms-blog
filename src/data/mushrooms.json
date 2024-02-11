@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Blue Oyster",
+    "price": "15"
+  },
+  {
+    "name": "Golds Oyster",
+    "price": "15"
+  },
+  {
+    "name": "Pinks Oyster",
+    "price": "15"
+  },
+  {
+    "name": "FL Oyster",
+    "price": "15"
+  },
+  {
+    "name": "Pearl Oyster",
+    "price": "17"
+  },
+  {
+    "name": "King Oyster",
+    "price": "17"
+  },
+  {
+    "name": "Lion's Mane",
+    "price": "17"
+  },
+  {
+    "name": "Chestnut",
+    "price": "17"
+  },
+  {
+    "name": "Shiitake",
+    "price": "17"
+  },
+  {
+    "name": "Enoki",
+    "price": "15"
+  }
+]

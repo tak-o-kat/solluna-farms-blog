@@ -1,10 +1,6 @@
 ---
-import background from "../../images/grey-matte-md.jpg";
-import Bookmark from "../../images/bookmark.svg";
-import Title from "../../images/menu.png";
-import YouTubeCode from "../../images/yt_qrcode.png";
-import DiscordCode from "../../images/discord_qrcode.png";
-import Fav from "../../images/favicon.svg";
+import MenuHeader from "./MenuHeader.astro";
+import MenuItems from "./MenuItems.astro";
 ---
 
 <section
@@ -12,62 +8,8 @@ import Fav from "../../images/favicon.svg";
 >
   <div class="text-white p-1">
     <section class="bg-[#202124] h-full w-full flex flex-col">
-      <div class="flex justify-items-start relative">
-        <div class="p-2 md:p-3 lg:p-5 flex flex-col md:flex-row">
-          <div class="flex flex-row w-full md:w-[22rem] lg:w-[25rem]">
-            <img src={Title.src} alt="Solluna Mushroom Farms title" class="" />
-          </div>
-          <div class="px-0 md:px-[2rem] lg:px-[6rem] flex flex-col">
-            <div class="text-2xl p-3">Info</div>
-            <div class="flex flex-col px-1 py-4 md:p-4">
-              <span class="text-sm text-neutral-400">Email</span>
-              <span> sollunamushrooms@gmail.com</span>
-            </div>
-            <div
-              class="flex flex-col md:flex-row justify-center items-center gap-6 text-sm w-full text-neutral-400"
-            >
-              <div class="flex flex-col">
-                <span class="mb-3">YouTube</span>
-                <img
-                  src={YouTubeCode.src}
-                  alt=""
-                  class="h-60 md:h-[8rem] lg:h-[10rem] w-60 md:w-[8rem] lg:w-[10rem]"
-                />
-              </div>
-              <div class="flex flex-col">
-                <span class="mb-3">Discord</span>
-                <img
-                  src={DiscordCode.src}
-                  alt=""
-                  class="h-60 md:h-[8rem] lg:h-[10rem] w-60 md:w-[8rem] lg:w-[10rem]"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="flex absolute right-1 lg:right-10 top-0">
-          <img
-            src={Bookmark.src}
-            alt="image description"
-            class="bg-[#202124] h-[6rem] lg:h-[12rem] w-[3rem] lg:w-[6rem]"
-          />
-          <ul
-            class="list-none !m-0 flex flex-col text-[10px] lg:text-[24px] text-black font-mono font-semibold absolute right-[20px] lg:right-[40px] bottom-[38px] lg:bottom-[75px]"
-          >
-            <li class="!m-0 h-3 lg:h-6">M</li>
-            <li class="!m-0 h-3 lg:h-6">E</li>
-            <li class="!m-0 h-3 lg:h-6">N</li>
-            <li class="!m-0 h-3 lg:h-6">U</li>
-          </ul>
-        </div>
-      </div>
-      <div class="flex justify-center w-full p-5">
-        <div class="flex flex-col">
-          <div class="flex justify-center text-4xl font-bold">Mushrooms</div>
-          <div class="flex justify-center text-md">priced per lbs</div>
-        </div>
-      </div>
+      <MenuHeader />
+      <MenuItems />
     </section>
   </div>
 </section>
