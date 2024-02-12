@@ -5,7 +5,7 @@ import YouTubeCode from "../../images/yt_qrcode.png";
 import DiscordCode from "../../images/discord_qrcode.png";
 ---
 
-<div class="flex justify-items-start relative">
+<div class="flex justify-center items-center relative">
   <div class="p-2 md:p-3 lg:p-5 flex flex-col md:flex-row">
     <div class="flex flex-row w-full md:w-[22rem] lg:w-[25rem]">
       <img src={Title.src} alt="Solluna Mushroom Farms title" class="" />
@@ -15,14 +15,18 @@ import DiscordCode from "../../images/discord_qrcode.png";
       <div
         class="flex flex-col justify-center md:justify-start items-center md:items-start px-1 py-3 md:py-4"
       >
-        <span class="flex left-0 text-sm text-neutral-400">Email</span>
+        <span class="flex left-0 text-lg text-neutral-400">Email</span>
         <span>sollunamushrooms@gmail.com</span>
       </div>
       <div
         class="flex flex-col md:flex-row justify-center items-center gap-6 text-sm w-full text-neutral-400"
       >
         <div class="flex flex-col">
-          <span class="mb-3 flex justify-center">YouTube</span>
+          <a
+            href="https://www.youtube.com/@solluna111"
+            target="_blank"
+            class="mb-3 flex justify-center text-lg text-neutral-400">YouTube</a
+          >
           <img
             src={YouTubeCode.src}
             alt=""
@@ -30,7 +34,11 @@ import DiscordCode from "../../images/discord_qrcode.png";
           />
         </div>
         <div class="flex flex-col">
-          <span class="mb-3 flex justify-center">Discord</span>
+          <a
+            href="https://discord.gg/2h2RbrvCmc"
+            target="_blank"
+            class="mb-3 flex justify-center text-lg text-neutral-400">Discord</a
+          >
           <img
             src={DiscordCode.src}
             alt=""

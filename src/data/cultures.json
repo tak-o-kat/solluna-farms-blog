@@ -1,0 +1,162 @@
+[
+  {
+    "name": "Blue Oyster",
+    "dose": "1",
+    "price": "15"
+  },
+  {
+    "name": "Blue Oyster",
+    "dose": "3",
+    "price": "30"
+  },
+  {
+    "name": "Gold Oyster",
+    "dose": "1",
+    "price": "15"
+  },
+  {
+    "name": "Gold Oyster",
+    "dose": "3",
+    "price": "30"
+  },
+  {
+    "name": "Pink Oyster",
+    "dose": "1",
+    "price": "15"
+  },
+  {
+    "name": "Pink Oyster",
+    "dose": "3",
+    "price": "30"
+  },
+  {
+    "name": "Florida Oyster",
+    "dose": "1",
+    "price": "15"
+  },
+  {
+    "name": "Flordia Oyster",
+    "dose": "3",
+    "price": "30"
+  },
+  {
+    "name": "Pearl Oyster",
+    "dose": "1",
+    "price": "15"
+  },
+  {
+    "name": "Pearl Oyster",
+    "dose": "3",
+    "price": "30"
+  },
+  {
+    "name": "King Oyster",
+    "dose": "1",
+    "price": "15"
+  },
+  {
+    "name": "King Oyster",
+    "dose": "3",
+    "price": "30"
+  },
+  {
+    "name": "Phoenix Oyster",
+    "dose": "1",
+    "price": "15"
+  },
+  {
+    "name": "Phoenix Oyster",
+    "dose": "3",
+    "price": "30"
+  },
+  {
+    "name": "Lion's Mane",
+    "dose": "1",
+    "price": "15"
+  },
+  {
+    "name": "Lion's Mane",
+    "dose": "3",
+    "price": "30"
+  },
+  {
+    "name": "Turkey Tail",
+    "dose": "1",
+    "price": "15"
+  },
+  {
+    "name": "Turkey Tail",
+    "dose": "3",
+    "price": "30"
+  },
+  {
+    "name": "Reishi Antlers",
+    "dose": "1",
+    "price": "15"
+  },
+  {
+    "name": "Reishi Antlers",
+    "dose": "3",
+    "price": "30"
+  },
+  {
+    "name": "Chestnuts",
+    "dose": "1",
+    "price": "15"
+  },
+  {
+    "name": "Chestnuts",
+    "dose": "3",
+    "price": "30"
+  },
+  {
+    "name": "Shiitake",
+    "dose": "1",
+    "price": "15"
+  },
+  {
+    "name": "Shiitake",
+    "dose": "3",
+    "price": "30"
+  },
+  {
+    "name": "Enoki",
+    "dose": "1",
+    "price": "15"
+  },
+  {
+    "name": "Enoki",
+    "dose": "3",
+    "price": "30"
+  },
+  {
+    "name": "Maitake",
+    "dose": "1",
+    "price": "15"
+  },
+  {
+    "name": "Maitake",
+    "dose": "3",
+    "price": "30"
+  },
+  {
+    "name": "Yellow Morels",
+    "dose": "1",
+    "price": "15"
+  },
+  {
+    "name": "Yellow Morels",
+    "dose": "3",
+    "price": "30"
+  },
+  {
+    "name": "Black Poplar (Piopinno)",
+    "dose": "1",
+    "price": "15"
+  },
+  {
+    "name": "Black Poplar (Piopinno)",
+    "dose": "3",
+    "price": "30"
+  }
+]
